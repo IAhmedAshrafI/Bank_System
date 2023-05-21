@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adminaddbranch));
             this.branch_address_input = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
@@ -47,17 +48,18 @@
             // branch_address_input
             // 
             this.branch_address_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.branch_address_input.Location = new System.Drawing.Point(630, 579);
+            this.branch_address_input.Location = new System.Drawing.Point(709, 724);
+            this.branch_address_input.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.branch_address_input.Name = "branch_address_input";
-            this.branch_address_input.Size = new System.Drawing.Size(318, 30);
+            this.branch_address_input.Size = new System.Drawing.Size(357, 35);
             this.branch_address_input.TabIndex = 31;
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(630, 502);
+            this.label4.Location = new System.Drawing.Point(709, 628);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(318, 74);
+            this.label4.Size = new System.Drawing.Size(358, 92);
             this.label4.TabIndex = 30;
             this.label4.Text = "Address";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -65,9 +67,10 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(1036, 742);
+            this.button4.Location = new System.Drawing.Point(1166, 928);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(185, 82);
+            this.button4.Size = new System.Drawing.Size(208, 102);
             this.button4.TabIndex = 29;
             this.button4.Text = "Add";
             this.button4.UseVisualStyleBackColor = true;
@@ -76,9 +79,10 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(17, 792);
+            this.button3.Location = new System.Drawing.Point(19, 990);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(271, 49);
+            this.button3.Size = new System.Drawing.Size(305, 61);
             this.button3.TabIndex = 28;
             this.button3.Text = "Log out";
             this.button3.UseVisualStyleBackColor = true;
@@ -87,9 +91,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(17, 241);
+            this.button2.Location = new System.Drawing.Point(19, 301);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(271, 96);
+            this.button2.Size = new System.Drawing.Size(305, 120);
             this.button2.TabIndex = 27;
             this.button2.Text = "Add a branch";
             this.button2.UseVisualStyleBackColor = true;
@@ -97,9 +102,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(17, 102);
+            this.button1.Location = new System.Drawing.Point(19, 128);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(271, 96);
+            this.button1.Size = new System.Drawing.Size(305, 120);
             this.button1.TabIndex = 26;
             this.button1.Text = "Add a new bank";
             this.button1.UseVisualStyleBackColor = true;
@@ -108,25 +114,27 @@
             // b_code_input
             // 
             this.b_code_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b_code_input.Location = new System.Drawing.Point(630, 441);
+            this.b_code_input.Location = new System.Drawing.Point(709, 551);
+            this.b_code_input.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.b_code_input.Name = "b_code_input";
-            this.b_code_input.Size = new System.Drawing.Size(318, 30);
+            this.b_code_input.Size = new System.Drawing.Size(357, 35);
             this.b_code_input.TabIndex = 25;
             // 
             // branch_num_input
             // 
             this.branch_num_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.branch_num_input.Location = new System.Drawing.Point(630, 297);
+            this.branch_num_input.Location = new System.Drawing.Point(709, 371);
+            this.branch_num_input.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.branch_num_input.Name = "branch_num_input";
-            this.branch_num_input.Size = new System.Drawing.Size(318, 30);
+            this.branch_num_input.Size = new System.Drawing.Size(357, 35);
             this.branch_num_input.TabIndex = 24;
             // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(630, 364);
+            this.label3.Location = new System.Drawing.Point(709, 455);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(318, 74);
+            this.label3.Size = new System.Drawing.Size(358, 92);
             this.label3.TabIndex = 23;
             this.label3.Text = "Bank Code";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -134,9 +142,9 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(630, 218);
+            this.label2.Location = new System.Drawing.Point(709, 272);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(318, 76);
+            this.label2.Size = new System.Drawing.Size(358, 95);
             this.label2.TabIndex = 22;
             this.label2.Text = "Branch Number";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -144,9 +152,9 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(605, 26);
+            this.label1.Location = new System.Drawing.Point(681, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(363, 76);
+            this.label1.Size = new System.Drawing.Size(408, 95);
             this.label1.TabIndex = 21;
             this.label1.Text = "Add a new Branch";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -155,17 +163,19 @@
             // 
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(0, 0);
+            this.listView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(306, 860);
+            this.listView1.Size = new System.Drawing.Size(344, 1074);
             this.listView1.TabIndex = 32;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(17, 375);
+            this.button5.Location = new System.Drawing.Point(19, 469);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(271, 96);
+            this.button5.Size = new System.Drawing.Size(305, 120);
             this.button5.TabIndex = 34;
             this.button5.Text = "Update Branch";
             this.button5.UseVisualStyleBackColor = true;
@@ -174,9 +184,10 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(17, 513);
+            this.button6.Location = new System.Drawing.Point(19, 641);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(271, 96);
+            this.button6.Size = new System.Drawing.Size(305, 120);
             this.button6.TabIndex = 33;
             this.button6.Text = "Delete Branch";
             this.button6.UseVisualStyleBackColor = true;
@@ -184,9 +195,9 @@
             // 
             // adminaddbranch
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1265, 862);
+            this.ClientSize = new System.Drawing.Size(1423, 1078);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.branch_address_input);
@@ -201,6 +212,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "adminaddbranch";
             this.Text = "adminaddbranch";
             this.Load += new System.EventHandler(this.adminaddbranch_Load);

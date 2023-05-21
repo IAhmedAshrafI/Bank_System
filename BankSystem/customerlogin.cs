@@ -36,7 +36,7 @@ namespace BankSystem
 
         private void button4_Click(object sender, EventArgs e)
         {
-            SqlConnection cn = new SqlConnection(@"Data Source=DESKTOP-5G3H0IA;Initial Catalog=Bank_System;Integrated Security=True");
+            SqlConnection cn = new SqlConnection(@"Data Source=localhost\sqlexpress;Initial Catalog=Bank_System;Integrated Security=True");
             cn.Open();
             SqlCommand MyCommand = new SqlCommand("SELECT COUNT(*) FROM Customer WHERE Name = @Name AND SSN = @SSN", cn);
             textBox2.PasswordChar = '*';
@@ -66,6 +66,13 @@ namespace BankSystem
         private void customerlogin_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            main main = new main();
+            main.Show();
+            this.Hide();
         }
     }
 }

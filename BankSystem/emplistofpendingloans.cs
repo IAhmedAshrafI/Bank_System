@@ -91,7 +91,7 @@ namespace BankSystem
 
         private void button8_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=DESKTOP-5G3H0IA;Initial Catalog=Bank_System;Integrated Security=True";
+            string connectionString = "Data Source=localhost\\sqlexpress;Initial Catalog=Bank_System;Integrated Security=True";
             using (SqlConnection sqlConnection = new SqlConnection(connectionString))
             {
                 string sqlSelect = "SELECT * FROM Loan WHERE LoanType IS NULL OR LoanType = ''";
@@ -108,7 +108,7 @@ namespace BankSystem
 
         private void loanDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            string connectionString = "Data Source=DESKTOP-5G3H0IA;Initial Catalog=Bank_System;Integrated Security=True";
+            string connectionString = "Data Source=localhost\\sqlexpress;Initial Catalog=Bank_System;Integrated Security=True";
             if (e.RowIndex >= 0)
             {
                 if (e.ColumnIndex == loandataGridView.Columns["AcceptButton"].Index)

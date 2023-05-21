@@ -54,27 +54,29 @@
             // userSSN_input
             // 
             this.userSSN_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userSSN_input.Location = new System.Drawing.Point(563, 560);
+            this.userSSN_input.Location = new System.Drawing.Point(633, 700);
+            this.userSSN_input.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.userSSN_input.Name = "userSSN_input";
-            this.userSSN_input.Size = new System.Drawing.Size(369, 28);
+            this.userSSN_input.Size = new System.Drawing.Size(415, 32);
             this.userSSN_input.TabIndex = 32;
             this.userSSN_input.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // userPhone_input
             // 
             this.userPhone_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userPhone_input.Location = new System.Drawing.Point(563, 441);
+            this.userPhone_input.Location = new System.Drawing.Point(633, 551);
+            this.userPhone_input.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.userPhone_input.Name = "userPhone_input";
-            this.userPhone_input.Size = new System.Drawing.Size(369, 28);
+            this.userPhone_input.Size = new System.Drawing.Size(415, 32);
             this.userPhone_input.TabIndex = 31;
             this.userPhone_input.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(689, 367);
+            this.label4.Location = new System.Drawing.Point(775, 459);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(147, 70);
+            this.label4.Size = new System.Drawing.Size(165, 88);
             this.label4.TabIndex = 30;
             this.label4.Text = "Phone No.";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -83,9 +85,9 @@
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(684, 243);
+            this.label5.Location = new System.Drawing.Point(770, 304);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(152, 70);
+            this.label5.Size = new System.Drawing.Size(171, 88);
             this.label5.TabIndex = 29;
             this.label5.Text = "Address";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -94,9 +96,10 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(1092, 778);
+            this.button4.Location = new System.Drawing.Point(1228, 972);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(158, 63);
+            this.button4.Size = new System.Drawing.Size(178, 79);
             this.button4.TabIndex = 28;
             this.button4.Text = "Add";
             this.button4.UseVisualStyleBackColor = true;
@@ -105,9 +108,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(12, 65);
+            this.button2.Location = new System.Drawing.Point(14, 81);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(271, 96);
+            this.button2.Size = new System.Drawing.Size(305, 120);
             this.button2.TabIndex = 27;
             this.button2.Text = "Add customer";
             this.button2.UseVisualStyleBackColor = true;
@@ -116,27 +120,29 @@
             // userAddr_input
             // 
             this.userAddr_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userAddr_input.Location = new System.Drawing.Point(563, 311);
+            this.userAddr_input.Location = new System.Drawing.Point(633, 389);
+            this.userAddr_input.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.userAddr_input.Name = "userAddr_input";
-            this.userAddr_input.Size = new System.Drawing.Size(369, 28);
+            this.userAddr_input.Size = new System.Drawing.Size(415, 32);
             this.userAddr_input.TabIndex = 26;
             this.userAddr_input.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // userName_input
             // 
             this.userName_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userName_input.Location = new System.Drawing.Point(563, 197);
+            this.userName_input.Location = new System.Drawing.Point(633, 246);
+            this.userName_input.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.userName_input.Name = "userName_input";
-            this.userName_input.Size = new System.Drawing.Size(369, 28);
+            this.userName_input.Size = new System.Drawing.Size(415, 32);
             this.userName_input.TabIndex = 25;
             this.userName_input.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(689, 486);
+            this.label3.Location = new System.Drawing.Point(775, 608);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(147, 70);
+            this.label3.Size = new System.Drawing.Size(165, 88);
             this.label3.TabIndex = 24;
             this.label3.Text = "SSN";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -145,9 +151,9 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(644, 139);
+            this.label2.Location = new System.Drawing.Point(724, 174);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(219, 49);
+            this.label2.Size = new System.Drawing.Size(246, 61);
             this.label2.TabIndex = 23;
             this.label2.Text = "User Name";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -156,9 +162,9 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(534, 24);
+            this.label1.Location = new System.Drawing.Point(601, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(432, 90);
+            this.label1.Size = new System.Drawing.Size(486, 112);
             this.label1.TabIndex = 22;
             this.label1.Text = "Add a new customer";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -167,9 +173,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 178);
+            this.button1.Location = new System.Drawing.Point(14, 222);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(271, 96);
+            this.button1.Size = new System.Drawing.Size(305, 120);
             this.button1.TabIndex = 33;
             this.button1.Text = "Show list of loans";
             this.button1.UseVisualStyleBackColor = true;
@@ -178,9 +185,10 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(12, 292);
+            this.button3.Location = new System.Drawing.Point(14, 365);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(271, 96);
+            this.button3.Size = new System.Drawing.Size(305, 120);
             this.button3.TabIndex = 34;
             this.button3.Text = "Show list of customers";
             this.button3.UseVisualStyleBackColor = true;
@@ -189,9 +197,10 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(12, 405);
+            this.button5.Location = new System.Drawing.Point(14, 506);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(271, 96);
+            this.button5.Size = new System.Drawing.Size(305, 120);
             this.button5.TabIndex = 35;
             this.button5.Text = "Pending loans";
             this.button5.UseVisualStyleBackColor = true;
@@ -200,9 +209,10 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(12, 792);
+            this.button6.Location = new System.Drawing.Point(14, 990);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(271, 49);
+            this.button6.Size = new System.Drawing.Size(305, 61);
             this.button6.TabIndex = 36;
             this.button6.Text = "Log out";
             this.button6.UseVisualStyleBackColor = true;
@@ -211,9 +221,10 @@
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(0, -5);
+            this.listView1.Location = new System.Drawing.Point(0, -6);
+            this.listView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(306, 860);
+            this.listView1.Size = new System.Drawing.Size(344, 1074);
             this.listView1.TabIndex = 37;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
@@ -221,17 +232,18 @@
             // branchNo_input
             // 
             this.branchNo_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.branchNo_input.Location = new System.Drawing.Point(563, 698);
+            this.branchNo_input.Location = new System.Drawing.Point(633, 872);
+            this.branchNo_input.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.branchNo_input.Name = "branchNo_input";
-            this.branchNo_input.Size = new System.Drawing.Size(369, 28);
+            this.branchNo_input.Size = new System.Drawing.Size(415, 32);
             this.branchNo_input.TabIndex = 39;
             // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(649, 625);
+            this.label6.Location = new System.Drawing.Point(730, 781);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(214, 70);
+            this.label6.Size = new System.Drawing.Size(241, 88);
             this.label6.TabIndex = 38;
             this.label6.Text = "Branch Number";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -239,9 +251,10 @@
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(12, 524);
+            this.button7.Location = new System.Drawing.Point(14, 655);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(271, 96);
+            this.button7.Size = new System.Drawing.Size(305, 120);
             this.button7.TabIndex = 40;
             this.button7.Text = "Update Customer";
             this.button7.UseVisualStyleBackColor = true;
@@ -250,9 +263,10 @@
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(12, 644);
+            this.button8.Location = new System.Drawing.Point(14, 805);
+            this.button8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(271, 96);
+            this.button8.Size = new System.Drawing.Size(305, 120);
             this.button8.TabIndex = 41;
             this.button8.Text = "Delete Customer";
             this.button8.UseVisualStyleBackColor = true;
@@ -260,9 +274,9 @@
             // 
             // emploggedin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1262, 853);
+            this.ClientSize = new System.Drawing.Size(1420, 1066);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.branchNo_input);
@@ -284,6 +298,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "emploggedin";
             this.Text = "Emp Loggedin";
             this.Load += new System.EventHandler(this.emploggedin_Load);

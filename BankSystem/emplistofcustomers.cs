@@ -91,7 +91,7 @@ namespace BankSystem
             string query = "SELECT Customer.Name, Customer.SSN, Account.AccountNumber " + "FROM Customer " + "INNER JOIN Account ON Customer.SSN = Account.CustomerSSN";
 
             // Create a SqlConnection (replace connectionStr with your actual connection string)
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-5G3H0IA;Initial Catalog=Bank_System;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection("Data Source=localhost\\sqlexpress;Initial Catalog=Bank_System;Integrated Security=True"))
             {
                 // Create a SqlDataAdapter with the query and connection
                 using (SqlDataAdapter adapter = new SqlDataAdapter(query, connection))

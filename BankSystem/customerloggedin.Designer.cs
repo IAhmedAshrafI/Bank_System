@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(customerloggedin));
             this.button2 = new System.Windows.Forms.Button();
             this.branchNo_input = new System.Windows.Forms.TextBox();
             this.amount_input = new System.Windows.Forms.TextBox();
@@ -42,9 +43,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(21, 243);
+            this.button2.Location = new System.Drawing.Point(24, 304);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(271, 96);
+            this.button2.Size = new System.Drawing.Size(305, 120);
             this.button2.TabIndex = 13;
             this.button2.Text = "Take loan";
             this.button2.UseVisualStyleBackColor = true;
@@ -53,25 +55,27 @@
             // branchNo_input
             // 
             this.branchNo_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.branchNo_input.Location = new System.Drawing.Point(636, 503);
+            this.branchNo_input.Location = new System.Drawing.Point(716, 629);
+            this.branchNo_input.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.branchNo_input.Name = "branchNo_input";
-            this.branchNo_input.Size = new System.Drawing.Size(263, 30);
+            this.branchNo_input.Size = new System.Drawing.Size(295, 35);
             this.branchNo_input.TabIndex = 12;
             // 
             // amount_input
             // 
             this.amount_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.amount_input.Location = new System.Drawing.Point(636, 365);
+            this.amount_input.Location = new System.Drawing.Point(716, 456);
+            this.amount_input.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.amount_input.Name = "amount_input";
-            this.amount_input.Size = new System.Drawing.Size(263, 30);
+            this.amount_input.Size = new System.Drawing.Size(295, 35);
             this.amount_input.TabIndex = 11;
             // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(636, 424);
+            this.label3.Location = new System.Drawing.Point(716, 530);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(263, 76);
+            this.label3.Size = new System.Drawing.Size(296, 95);
             this.label3.TabIndex = 10;
             this.label3.Text = "Branch Number";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -79,9 +83,9 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(636, 286);
+            this.label2.Location = new System.Drawing.Point(716, 358);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(263, 76);
+            this.label2.Size = new System.Drawing.Size(296, 95);
             this.label2.TabIndex = 9;
             this.label2.Text = "Amount";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -89,9 +93,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(21, 793);
+            this.button1.Location = new System.Drawing.Point(24, 991);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(271, 55);
+            this.button1.Size = new System.Drawing.Size(305, 69);
             this.button1.TabIndex = 16;
             this.button1.Text = "Log out";
             this.button1.UseVisualStyleBackColor = true;
@@ -101,17 +106,19 @@
             // 
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(0, 0);
+            this.listView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(306, 860);
+            this.listView1.Size = new System.Drawing.Size(344, 1074);
             this.listView1.TabIndex = 17;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(1035, 770);
+            this.button4.Location = new System.Drawing.Point(1164, 962);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(179, 71);
+            this.button4.Size = new System.Drawing.Size(201, 89);
             this.button4.TabIndex = 15;
             this.button4.Text = "Save";
             this.button4.UseVisualStyleBackColor = true;
@@ -120,18 +127,18 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(629, 9);
+            this.label1.Location = new System.Drawing.Point(708, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(270, 83);
+            this.label1.Size = new System.Drawing.Size(304, 104);
             this.label1.TabIndex = 18;
             this.label1.Text = "Take loan";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // customerloggedin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1262, 853);
+            this.ClientSize = new System.Drawing.Size(1420, 1066);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button4);
@@ -141,6 +148,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.listView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "customerloggedin";
             this.Text = "Customer loggedin";
             this.Load += new System.EventHandler(this.employeeloggedin_Load);

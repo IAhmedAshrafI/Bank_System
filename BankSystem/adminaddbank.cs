@@ -40,7 +40,7 @@ namespace BankSystem
 
         private void button4_Click(object sender, EventArgs e)
         {
-            SqlConnection sqlConnection = new SqlConnection("Data Source=DESKTOP-5G3H0IA;Initial Catalog=Bank_System;Integrated Security=True");
+            SqlConnection sqlConnection = new SqlConnection("Data Source=localhost\\sqlexpress;Initial Catalog=Bank_System;Integrated Security=True");
             string sql = "insert into Bank(BankName,BankCode,Address) values (@name,@code,@address)";
             SqlCommand cmd = new SqlCommand(sql,sqlConnection);
             cmd.Parameters.AddWithValue("@name", b_name_input.Text);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main));
             this.signup = new System.Windows.Forms.Button();
             this.login = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -36,9 +37,10 @@
             // signup
             // 
             this.signup.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signup.Location = new System.Drawing.Point(573, 464);
+            this.signup.Location = new System.Drawing.Point(645, 580);
+            this.signup.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.signup.Name = "signup";
-            this.signup.Size = new System.Drawing.Size(271, 96);
+            this.signup.Size = new System.Drawing.Size(305, 120);
             this.signup.TabIndex = 1;
             this.signup.Text = "Sign up";
             this.signup.UseVisualStyleBackColor = true;
@@ -47,9 +49,10 @@
             // login
             // 
             this.login.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.login.Location = new System.Drawing.Point(573, 260);
+            this.login.Location = new System.Drawing.Point(645, 325);
+            this.login.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.login.Name = "login";
-            this.login.Size = new System.Drawing.Size(271, 96);
+            this.login.Size = new System.Drawing.Size(305, 120);
             this.login.TabIndex = 2;
             this.login.Text = "Log in";
             this.login.UseVisualStyleBackColor = true;
@@ -58,21 +61,23 @@
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(520, 74);
+            this.label6.Location = new System.Drawing.Point(585, 92);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(380, 60);
+            this.label6.Size = new System.Drawing.Size(428, 75);
             this.label6.TabIndex = 23;
             this.label6.Text = "Welcome to the bank";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1412, 758);
+            this.ClientSize = new System.Drawing.Size(1588, 948);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.login);
             this.Controls.Add(this.signup);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "main";
             this.Text = "Home Page";
             this.Load += new System.EventHandler(this.main_Load);

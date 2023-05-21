@@ -48,7 +48,7 @@ namespace BankSystem
         private void button4_Click(object sender, EventArgs e)
         {
             //Changed the connection string declaration to a regular string variable.
-            string connectionString = "Data Source=DESKTOP-5G3H0IA;Initial Catalog=Bank_System;Integrated Security=True";
+            string connectionString = "Data Source=localhost\\sqlexpress;Initial Catalog=Bank_System;Integrated Security=True";
             using (SqlConnection sqlConnection = new SqlConnection(connectionString))
             {
                 bool found = IsFound("BankCode", "Bank", b_code_input.Text, sqlConnection);

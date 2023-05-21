@@ -28,7 +28,7 @@ namespace BankSystem
 
         private void button4_Click(object sender, EventArgs e)
         {
-            SqlConnection cn = new SqlConnection(@"Data Source=DESKTOP-5G3H0IA;Initial Catalog=Bank_System;Integrated Security=True");
+            SqlConnection cn = new SqlConnection(@"Data Source=localhost\sqlexpress;Initial Catalog=Bank_System;Integrated Security=True");
             cn.Open();
             SqlCommand MyCommand = new SqlCommand("INSERT INTO Employee (Emp_ID, Emp_Name, Emp_Phone) VALUES (@EmpID, @EmpName, @EmpPhone)", cn);
             MyCommand.Parameters.AddWithValue("@EmpID", textBox2.Text);

@@ -20,29 +20,59 @@ namespace BankSystem
 
         private void button4_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=DESKTOP-5G3H0IA;Initial Catalog=Bank_System;Integrated Security=True";
+            string ssnToDelete = SSN_input.Text; // Assuming you have a TextBox named "SSN_input" for SSN input
+            string connectionString = "Data Source=localhost\\sqlexpress;Initial Catalog=Bank_System;Integrated Security=True";
+
             using (SqlConnection sqlConnection = new SqlConnection(connectionString))
             {
-                string ssnToDelete = SSN_input.Text;
-                string sqlDelete = "DELETE FROM Customer WHERE SSN = @SSN";
-                SqlCommand cmd = new SqlCommand(sqlDelete, sqlConnection);
-                cmd.Parameters.AddWithValue("@SSN", ssnToDelete);
-
                 sqlConnection.Open();
-                int rowsAffected = cmd.ExecuteNonQuery();
-                sqlConnection.Close();
 
-                if (rowsAffected > 0)
+                // Start a transaction
+                SqlTransaction transaction = sqlConnection.BeginTransaction();
+
+                try
                 {
-                    MessageBox.Show("The customer has been deleted successfully");
+                    // Delete account records associated with the customer
+                    string accountDeleteQuery = "DELETE FROM Account WHERE CustomerSSN = @ssn";
+                    using (SqlCommand accountDeleteCommand = new SqlCommand(accountDeleteQuery, sqlConnection, transaction))
+                    {
+                        accountDeleteCommand.Parameters.AddWithValue("@ssn", ssnToDelete);
+                        int accountRowsAffected = accountDeleteCommand.ExecuteNonQuery();
+                    }
+
+                    // Delete customer record
+                    string customerDeleteQuery = "DELETE FROM Customer WHERE SSN = @ssn";
+                    using (SqlCommand customerDeleteCommand = new SqlCommand(customerDeleteQuery, sqlConnection, transaction))
+                    {
+                        customerDeleteCommand.Parameters.AddWithValue("@ssn", ssnToDelete);
+                        int customerRowsAffected = customerDeleteCommand.ExecuteNonQuery();
+
+                        if (customerRowsAffected == 0)
+                        {
+                            // No customer with the provided SSN was found
+                            transaction.Rollback();
+                            MessageBox.Show("No customer with the provided SSN was found.");
+                            return;
+                        }
+                    }
+
+                    // Commit the transaction if both delete statements executed successfully
+                    transaction.Commit();
+                    MessageBox.Show("The customer has been deleted successfully.");
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show("No customer with the provided SSN was found");
+                    // Roll back the transaction if an error occurs
+                    transaction.Rollback();
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+                finally
+                {
+                    sqlConnection.Close();
                 }
             }
-
         }
+
 
         private void button2_Click(object sender, EventArgs e)
         {

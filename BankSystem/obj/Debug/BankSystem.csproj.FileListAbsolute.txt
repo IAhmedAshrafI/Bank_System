@@ -134,3 +134,29 @@ D:\Study\FCAI\Second year\Semester 2\Database\Project\Bank_System\Bank_System\Ba
 D:\Study\FCAI\Second year\Semester 2\Database\Project\Bank_System\Bank_System\BankSystem\obj\Debug\BankSystem.admindeletebranch.resources
 D:\Study\FCAI\Second year\Semester 2\Database\Project\Bank_System\Bank_System\BankSystem\obj\Debug\BankSystem.adminupdatebranch.resources
 D:\Study\FCAI\Second year\Semester 2\Database\Project\Bank_System\Bank_System\BankSystem\obj\Debug\BankSystem.empupdatecustomer.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\bin\Debug\BankSystem.exe.config
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\bin\Debug\BankSystem.exe
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\bin\Debug\BankSystem.pdb
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.csproj.AssemblyReference.cache
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.csproj.SuggestedBindingRedirects.cache
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.adminaddbank.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.adminaddbranch.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.admindeletebranch.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.adminlogin.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.adminupdatebranch.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.customerloggedin.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.customerlogin.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.empdeletecustomer.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.emplistofcustomers.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.emplistofloans.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.emplistofpendingloans.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.emploggedin.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.emplogin.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.empsignup.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.empupdatecustomer.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.main.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.Properties.Resources.resources
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.csproj.GenerateResource.cache
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.csproj.CoreCompileInputs.cache
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.exe
+D:\Learning\Semester 4\database git finalllllllllllllll\Bank_System\BankSystem\obj\Debug\BankSystem.pdb

@@ -71,7 +71,7 @@ namespace BankSystem
             string updateQuery = "UPDATE Customer SET Address = @address, Phone = @phone WHERE SSN = @ssn";
 
             // Create a SqlConnection (replace connectionStr with your actual connection string)
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-5G3H0IA;Initial Catalog=Bank_System;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection("Data Source=localhost\\sqlexpress;Initial Catalog=Bank_System;Integrated Security=True"))
             {
                 // Create a SqlCommand with the update query and connection
                 using (SqlCommand command = new SqlCommand(updateQuery, connection))
