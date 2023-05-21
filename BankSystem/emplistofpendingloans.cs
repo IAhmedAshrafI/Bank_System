@@ -94,7 +94,7 @@ namespace BankSystem
             string connectionString = "Data Source=localhost\\sqlexpress;Initial Catalog=Bank_System;Integrated Security=True";
             using (SqlConnection sqlConnection = new SqlConnection(connectionString))
             {
-                string sqlSelect = "SELECT * FROM Loan WHERE LoanType IS NULL OR LoanType = ''";
+                string sqlSelect = "SELECT Loan.*, Customer.name, Customer.SSN FROM Loan INNER JOIN Customer ON Loan.BranchNumber = Customer.BranchNumber WHERE LoanType IS NULL OR LoanType = ''";
                 SqlCommand cmd = new SqlCommand(sqlSelect, sqlConnection);
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 DataTable dataTable = new DataTable();
@@ -181,6 +181,11 @@ namespace BankSystem
             empdeletecustomer empdeletecustomer = new empdeletecustomer();
             empdeletecustomer.Show();
             this.Hide();
+        }
+
+        private void emplistofpendingloans_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -213,6 +213,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "emplistofpendingloans";
             this.Text = "emplistofpendingloans";
+            this.Load += new System.EventHandler(this.emplistofpendingloans_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.loandataGridView)).EndInit();
             this.ResumeLayout(false);
 

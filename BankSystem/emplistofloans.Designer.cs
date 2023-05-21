@@ -214,6 +214,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "emplistofloans";
             this.Text = "list of loans";
+            this.Load += new System.EventHandler(this.emplistofloans_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
